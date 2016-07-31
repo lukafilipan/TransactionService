@@ -21,6 +21,8 @@ GET /transactionservice/sum/$id returns a JSON object containing a single "sum" 
 
 GET /transactionservice/type/$type returns a JSON object containing a list of ids corresponding to keys of the entries in the HashMap which share the same type as specified in the $type parameter.
 
+Update and Delete aren't implemented, but can easily be added.
+
 The postman request collection can be downloaded here: https://www.dropbox.com/s/nusi1r90upgpajn/TransactionService.postman_collection.json?dl=0
 
 # Analysis
